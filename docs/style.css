@@ -172,18 +172,23 @@ footer a:hover{
     margin:20px 0 35px;
 }
 
-.model-table th{
-    background:#274690;
-    color:white;
-    padding:14px;
+.model-table th,
+.model-table td{
+    border:1px solid #ddd;
+    padding:14px 18px;
     text-align:left;
 }
 
-.model-table td{
-    padding:14px;
-    border:1px solid #d8d8d8;
+.model-table th{
+    background:#274690;
+    color:white;
+    font-weight:600;
 }
 
 .model-table tr:nth-child(even){
     background:#f7f9fc;
+}
+
+.model-table tr:hover{
+    background:#eef4ff;
 }

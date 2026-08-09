@@ -43,19 +43,15 @@
     <section id="intro">
     <h2>1. Introduction</h2>
     <p>
-        Search performance changes continuously because of evolving user behavior, search engine updates and content freshness. 
-        As the number of published pages grows, manually identifying content that requires attention becomes increasingly difficult for editorial teams.
+        Search performance changes continuously because of evolving user behavior, search engine updates and content freshness.As the number of published pages grows, manually identifying content that requires attention becomes increasingly difficult for editorial teams.
     </p>
 
     <p>
-        The objective of this research is to investigate whether historical search and engagement metrics can help identify pages 
-        that are more likely to experience declining search performance. Rather than replacing editorial judgment, the proposed model is intended 
-        to support content teams by providing a ranked list of pages that may benefit from manual review.
+        The objective of this research is to investigate whether historical search and engagement metrics can help identify pages that are more likely to experience declining search performance. Rather than replacing editorial judgment, the proposed model is intended to support content teams by providing a ranked list of pages that may benefit from manual review.
     </p>
 
     <p>
-        This work was completed as part of the FlyRank ML Internship using an anonymized production dataset. T
-        hroughout the study, careful validation and leakage checks were performed to ensure that the reported results represent realistic model performance.
+        This work was completed as part of the FlyRank ML Internship using an anonymized production dataset. Throughout the study, careful validation and leakage checks were performed to ensure that the reported results represent realistic model performance.
     </p>
 
     <p>
@@ -165,6 +161,20 @@
     <p>
         The Random Forest model achieved the highest measured performance among the evaluated models. Performance decreased slightly when using grouped validation, indicating a more realistic estimate of generalization to previously unseen clients. These results support the use of grouped validation when evaluating content-ranking models.
     </p>
+
+    <figure class="chart">
+
+    <img src="images/model_performance.png"
+         alt="Random Forest Performance Comparison">
+
+    <figcaption>
+        <strong>Figure 1.</strong> Comparison of Random Forest F1 scores under
+        random and grouped validation strategies. Grouped validation provides
+        a more realistic estimate of model performance on previously unseen clients.
+    </figcaption>
+
+    </figure>
+
     </section>
 
 
@@ -239,23 +249,22 @@
     <h2>7. Reproducibility</h2>
 
     <p>
-        This research was developed as part of the FlyRank ML Internship. All experiments, preprocessing steps, validation procedures and action playbooks are documented in the accompanying notebooks available in the project repository.
+        This research was developed as part of the FlyRank ML Internship. All experiments,
+        preprocessing steps, validation procedures and action playbooks are documented
+        in the accompanying notebooks available in the project repository.
     </p>
 
-    <ul>
-
-        <li>Week 5 – Machine Learning Model Development</li>
-
-        <li>Week 6 – Validation and Leakage Audit</li>
-
-        <li>Week 7 – Content Action Playbook</li>
-
-        <li>Capstone – Research Paper</li>
-
-    </ul>
+    <div class="timeline">
+        <p><strong>Week 5:</strong> Machine Learning Model Development</p>
+        <p><strong>Week 6:</strong> Validation and Leakage Audit</p>
+        <p><strong>Week 7:</strong> Content Action Playbook</p>
+        <p><strong>Capstone:</strong> Research Paper</p>
+    </div>
 
     <p>
-        The complete source code, notebooks and supporting files are available in the GitHub repository, allowing the workflow to be reviewed and reproduced using the publicly provided project structure.
+        The complete source code, notebooks and supporting files are available in the
+        GitHub repository, allowing the workflow to be reviewed and reproduced using
+        the publicly provided project structure.
     </p>
 
     </section>

@@ -1,3 +1,78 @@
+# Predicting Declining Web Content Using Machine Learning
+
+A machine learning research project completed as part of the FlyRank ML Internship.
+
+## 🌐 Live Research Paper
+
+👉 **[View the Research Paper](https://ashmitachaturvedi.github.io/Flyrank_internship/)**
+
+## 👩‍💻 Author
+
+Ashmita Chaturvedi
+
+## 📌 Internship
+
+FlyRank Machine Learning Internship (2026)
+
+## 📖 Project Overview
+
+This project investigates whether historical search and engagement metrics can identify web pages that are likely to experience declining search performance.
+
+The study was conducted using the anonymized FlyRank ML Internship dataset containing approximately **30,000 content records**.
+
+Logistic Regression and Random Forest models were evaluated using both random and grouped validation strategies.
+
+The resulting recommendations are intended for editorial decision-support rather than automated publishing.
+
+## 🛠️ Tech Stack
+
+- Python
+- Pandas
+- NumPy
+- Scikit-learn
+- Matplotlib
+- Google Colab
+- Git & GitHub
+- GitHub Pages
+
+
+## 📊 Key Results
+
+| Model | Validation Strategy | Accuracy | Precision | Recall | F1 Score |
+|-------|---------------------|----------|-----------|--------|----------|
+| Random Forest | Random Split | 0.9098 | 0.8981 | 0.9403 | 0.9187 |
+| Random Forest | Grouped Split | 0.8861 | 0.8766 | 0.9044 | 0.8903 |
+
+The grouped validation provides a more realistic estimate of model performance on previously unseen clients.
+
+
+## 🚀 Repository Highlights
+
+- ✅ Completed all FlyRank ML Internship notebooks
+- ✅ Machine Learning model development and evaluation
+- ✅ Content Action Playbook
+- ✅ Deployed Research Paper (GitHub Pages)
+- ✅ End-to-end ML workflow documentation
+
+
+## 📂 Repository Structure
+
+| Folder | Description |
+|--------|-------------|
+| `docs/` | Deployed research paper website |
+| `work/` | Internship notebooks and capstone |
+| `submission/` | Final submission files |
+| `data/` | Anonymized dataset |
+| `outputs/` | Generated outputs |
+
+---
+
+## 📚 Starter Repository Reference
+
+The following section is the original FlyRank ML Internship starter repository documentation, retained for reference.
+
+---
+
 # FlyRank ML Internship — Starter Repo
 
 **Applied Search Intelligence: Google Search Ranking & Discoverability**
